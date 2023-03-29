@@ -5,6 +5,8 @@ import com.Aditya.ByInheritence.MultiThreadOne;
 public class Main {
 	public static void main(String[] args) {
 
+//      <====     By Inheritance    ====>
+
 		//		With Two Threads
 		/*
 		MultiThreadOne multiThreadOne = new MultiThreadOne();
@@ -20,18 +22,16 @@ public class Main {
 			MultiThreadOne multiThreadOne = new MultiThreadOne(i);
 			multiThreadOne.start();
 		}
-		*
+		*/
 
 
-		// With Thread Number
+		// With throwing exception in one thread
 		/*
 		for (int i = 0; i < 5; i++) {
 			MultiThreadOne multiThreadOne = new MultiThreadOne(i);
 			multiThreadOne.start();
 		}
 		*/
-
-
 
 
 	}
