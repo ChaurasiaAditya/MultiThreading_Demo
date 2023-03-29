@@ -17,10 +17,21 @@ public class Main {
 		// With Thread Loop
 		/*
 		for (int i = 0; i < 5; i++) {
-			MultiThreadOne multiThreadOne = new MultiThreadOne();
+			MultiThreadOne multiThreadOne = new MultiThreadOne(i);
+			multiThreadOne.start();
+		}
+		*
+
+
+		// With Thread Number
+		/*
+		for (int i = 0; i < 5; i++) {
+			MultiThreadOne multiThreadOne = new MultiThreadOne(i);
 			multiThreadOne.start();
 		}
 		*/
+
+
 
 
 	}
