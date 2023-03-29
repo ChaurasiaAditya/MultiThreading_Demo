@@ -1,5 +1,6 @@
 package com.Aditya;
 
+import com.Aditya.ByImplementation.MultiThreadTwo;
 import com.Aditya.ByInheritence.MultiThreadOne;
 
 public class Main {
@@ -34,5 +35,12 @@ public class Main {
 		*/
 
 //      <====     By Interface    ====>
+
+		for (int i = 0; i < 5; i++) {
+			MultiThreadTwo multiThreadTwo = new MultiThreadTwo(i);
+			Thread myThread = new Thread(multiThreadTwo);
+			myThread.start();
+		}
+
 	}
 }
