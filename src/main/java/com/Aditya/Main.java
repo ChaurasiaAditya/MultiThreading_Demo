@@ -14,7 +14,13 @@ public class Main {
 		*/
 
 
-		// With
+		// With Thread Loop
+		/*
+		for (int i = 0; i < 5; i++) {
+			MultiThreadOne multiThreadOne = new MultiThreadOne();
+			multiThreadOne.start();
+		}
+		*/
 
 
 	}
