@@ -33,6 +33,6 @@ public class Main {
 		}
 		*/
 
-
+//      <====     By Interface    ====>
 	}
 }
